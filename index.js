@@ -7,3 +7,19 @@
 
 // Aide
 // Priorités en CSS : id > classe > baliseHtml
+const sidebar = document.querySelector(".side-bar");
+const content = document.querySelector(".content")
+
+btn.addEventListener("click", () => {
+
+
+
+  sidebar.classList.toggle("inject")
+    
+    
+})
+
+content.addEventListener("click", () => {
+
+    sidebar.classList.remove("inject")
+})
